@@ -157,14 +157,6 @@ flowchart LR
 
 ### Option 2: Locally
 
-```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
-pip install pandas numpy scikit-learn jupyter
-jupyter notebook notebooks/diabetes_prediction.ipynb
-```
-
-Put the CSV where the notebook's `pd.read_csv` line expects it, or update the path. We use `random_state=42` throughout, so you should get very similar numbers to the ones above.
 
 ## Repository structure
 
